@@ -35,7 +35,11 @@ a {
 
 a:hover {
     border-bottom: transparent;
-    color: #a9a9a9;
+    color: #f06292;
+}
+
+h1 {
+    color: #212d74;
 }
 
 p {
