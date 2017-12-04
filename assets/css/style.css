@@ -3,63 +3,75 @@
  * https://ifvictr.github.io / @ifvictr
  * Free to use under the MIT license
  */
+
 @import url(font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Muli);
-*{
+* {
     color: #ffffff;
     font-family: Muli, sans-serif;
     margin: auto;
     text-align: center;
 }
-::selection{
+
+::selection {
     background: #d3d3d3;
 }
-body{
+
+body {
     background-attachment: fixed;
-    background-image: url(../../images/jellyfish-curis3.jpg);
+    background-image: url(../../images/jellyfish-curis2.jpg);
     background-repeat: no-repeat;
     color: #ffffff;
     font-family: "Muli", sans-serif;
     margin: auto;
     text-align: center;
 }
-a{
+
+a {
     border-bottom: 1px dotted;
     text-decoration: none;
     transition: color 0.3s ease-in-out, border-bottom-color 0.3s ease-in-out;
 }
-a:hover{
+
+a:hover {
     border-bottom: transparent;
     color: #a9a9a9;
 }
-p{
+
+p {
     font-size: 18px;
     line-height: 24px;
     margin-top: 4px;
 }
-#avatar img{
+
+#avatar img {
     border-radius: 20px;
     height: 200px;
     margin-top: 5%;
 }
-#content{
+
+#content {
     margin-top: 3%;
     width: 60%;
 }
-#social{
+
+#social {
     left: 50%;
     margin-top: 5%;
     position: absolute;
     transform: translate(-50%, -50%);
 }
-#social ul{
+
+#social ul {
     padding: 3px 10px;
 }
-#social li{
+
+#social li {
     display: inline-block;
     padding: 16px;
 }
-.icon{
+
+.icon {
     border-bottom: none;
     font-family: FontAwesome;
     font-style: normal;
@@ -67,21 +79,27 @@ p{
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
 }
-.facebook:hover{
+
+.facebook:hover {
     color: #3b5998;
 }
-.instagram:hover{
+
+.instagram:hover {
     color: #8a3ab9;
 }
-.linkedin:hover{
+
+.linkedin:hover {
     color: #0077b5;
 }
-.snapchat:hover{
+
+.snapchat:hover {
     color: #fffc00;
 }
-.twitter:hover{
+
+.twitter:hover {
     color: #00aced;
 }
-.youtube:hover{
+
+.youtube:hover {
     color: #cd201f;
 }
