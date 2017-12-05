@@ -91,3 +91,97 @@ p{
 .youtube:hover{
     color: #cd201f;
 }
+        .hamburger {
+            background: none;
+            position: absolute;
+            top: 0;
+            right: 0;
+            line-height: 45px;
+            padding: 5px 5px 5px 5px;
+            color: #FFFFFF;
+            border: 0;
+            font-size: 3em;
+            font-weight: bold;
+            cursor: pointer;
+            outline: none;
+            z-index: 1000000;
+        }
+        
+        .cross {
+            background: none;
+            position: absolute;
+            top: 10px;
+            right: 0;
+            padding: 5px 5px 5px 5px;
+            color: #FFFFFF;
+            border: 0;
+            font-size: 6em;
+            line-height: 65px;
+            font-weight: bold;
+            cursor: pointer;
+            outline: none;
+            z-index: 1000000;
+        }
+        
+        .menu {
+            z-index: 1000000;
+            font-family: s_light, Arial;
+            font-weight: bold;
+            top: 45px;
+            right: 0;
+            width: 20%;
+            background: rgba(0, 0, 0, 0.75);
+            position: absolute;
+            text-align: center;
+            font-size: 18px;
+        }
+        
+        .menu ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            list-style-image: none;
+        }
+        
+        .menu li {
+            display: block;
+            padding: 15px 0 15px 0;
+        }
+        
+        .menu li:hover {
+            background: #FFFFFF;
+        }
+        
+        .menu ul li a {
+            text-decoration: none;
+            margin: 0px;
+            color: #39A8DC;
+        }
+        
+        .menu ul li a:hover {
+            color: #39A8DC;
+            text-decoration: none;
+        }
+        
+        .menu a {
+            text-decoration: none;
+            color: #39A8DC;
+        }
+        
+        .menu a:hover {
+            text-decoration: none;
+            color: #39A8DC;
+        }
+        
+        .menu .here {
+            color: #FFFFFF;
+            border-right: 15px solid #FFFFFF;
+            cursor: default;
+        }
+        
+        .menu .here:hover {
+            color: #FFFFFF;
+            border-right: 15px solid #FFFFFF;
+            cursor: default;
+            background: rgba(0, 0, 0, 0.75);
+        }
