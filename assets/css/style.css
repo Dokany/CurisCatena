@@ -133,7 +133,7 @@ p {
     color: #FFFFFF;
     border: 0;
     font-size: 6em;
-    line-height: 65px;
+    line-height: 50px;
     font-weight: bold;
     cursor: pointer;
     outline: none;
@@ -172,7 +172,7 @@ p {
 .menu ul li a {
     text-decoration: none;
     margin: 0px;
-    color: #39A8DC;
+    color: #d23369;
 }
 
 .menu ul li a:hover {
@@ -200,5 +200,5 @@ p {
     color: #FFFFFF;
     border-right: 15px solid #FFFFFF;
     cursor: default;
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(33,45,116, 0.75);
 }
