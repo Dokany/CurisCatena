@@ -200,5 +200,42 @@ p {
     color: #FFFFFF;
     border-right: 15px solid #FFFFFF;
     cursor: default;
-    background: rgba(33,45,116, 0.75);
+    background: rgba(33, 45, 116, 0.75);
+}
+
+.subscribe {
+    width: 50%;
+    height: 34px;
+    display: block-inline;
+    color: #a0a0a0;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    padding: 6px;
+    border: 1px solid #cfcfcf;
+    outline-width: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.subscribe-btn {
+    display: inline;
+    float: inherit;
+    margin: 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    padding: 8px;
+    background-color: #212d74;
+    border-width: 0px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    outline-width: 0px;
+    cursor: pointer;
+}
+
+.subscribe-btn:hover {
+    background-color: #d23369;
 }
