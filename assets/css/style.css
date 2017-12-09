@@ -43,7 +43,7 @@ h1 {
 }
 
 p {
-    origin/master font-size: 18px;
+    font-size: 18px;
     line-height: 24px;
     margin-top: 4px;
 }
@@ -220,7 +220,6 @@ p {
 
 .subscribe-btn {
     display: inline;
-    float: inherit;
     margin: 0;
     color: #ffffff;
     font-size: 16px;
