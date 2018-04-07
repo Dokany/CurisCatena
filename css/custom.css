@@ -207,7 +207,10 @@ iframe {
 .item-1,
 .item-2,
 .item-3 {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
+    -o-background-size: cover;
     background-position: 50% 50%;
 }
 
@@ -539,15 +542,15 @@ button {
     width: 100%;
     height: 100%;
     padding-left: 0;
-    background: #fff;
+    background: #ffffff;
     transition: -webkit-transform 1.2s ease-in-out;
     transition: transform 1.2s ease-in-out;
     transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
 }
 
 .cont.s--signup .sub-cont {
-    -webkit-transform: translate3d(-640px, 0, 0);
-    transform: translate3d(-640px, 0, 0);
+    -webkit-transform: translate3d(-70%, 0em, 0em);
+    transform: translate3d(-70%, 0em, 0em);
 }
 
 .btn-default {
@@ -556,7 +559,7 @@ button {
     width: 260px;
     height: 36px;
     border-radius: 30px;
-    color: #fff;
+    color: #ffffff;
     font-size: 15px;
     cursor: pointer;
 }
@@ -567,7 +570,7 @@ button {
     position: absolute;
     left: 0;
     top: 0;
-    width: 260px;
+    width: 30%;
     height: 100%;
     padding-top: 360px;
 }
@@ -577,10 +580,13 @@ button {
     position: absolute;
     right: 0;
     top: 0;
-    width: 900px;
+    width: 500%;
     height: 100%;
     background-image: url("../images/header.svg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
+    -o-background-size: cover;
     transition: -webkit-transform 1.2s ease-in-out;
     transition: transform 1.2s ease-in-out;
     transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
@@ -648,7 +654,7 @@ button {
     height: 36px;
     margin: 0 auto;
     background: transparent;
-    color: #fff;
+    color: #ffffff;
     text-transform: uppercase;
     font-size: 15px;
     cursor: pointer;
@@ -696,14 +702,6 @@ button {
     transform: translateY(72px);
 }
 
-
-/*
-h2 {
-    width: 100%;
-    font-size: 26px;
-    text-align: center;
-}*/
-
 label {
     display: block;
     width: 260px;
@@ -712,8 +710,8 @@ label {
 }
 
 label span {
-    font-size: 12px;
-    color: #cfcfcf;
+    font-size: 15px;
+    color: #f06292;
     text-transform: uppercase;
 }
 
@@ -723,6 +721,7 @@ input {
     margin-top: 5px;
     padding-bottom: 5px;
     font-size: 16px;
+    color: #7890cd;
     border-bottom: 1px solid rgba(0, 0, 0, 0.4);
     text-align: center;
 }
@@ -731,7 +730,7 @@ input {
     margin-top: 15px;
     text-align: center;
     font-size: 12px;
-    color: #cfcfcf;
+    color: #7890cd;
 }
 
 .submit {
@@ -760,13 +759,13 @@ input {
 .cont.s--signup .sign-in {
     transition-timing-function: ease-in-out;
     transition-duration: 1.2s;
-    -webkit-transform: translate3d(640px, 0, 0);
-    transform: translate3d(640px, 0, 0);
+    -webkit-transform: translate3d(-85%, 0em, 0em);
+    transform: translate3d(-85%, 0em, 0em);
 }
 
 .sign-up {
-    -webkit-transform: translate3d(-900px, 0, 0);
-    transform: translate3d(-900px, 0, 0);
+    -webkit-transform: translate3d(-85%, 0em, 0em);
+    transform: translate3d(-85%, 0em, 0em);
 }
 
 .cont.s--signup .sign-up {
