@@ -181,11 +181,16 @@ iframe {
 .promo-item:hover {
     line-height: 380px;
     background-repeat: no-repeat;
-    -moz-background-size: 110%;
-    -o-background-size: 110%;
-    -webkit-background-size: 110%;
-    background-size: 110%;
-    border: 10px solid rgba(255, 255, 255, 0.3);
+    /*object-fit: cover;*/
+    -webkit-filter: none;
+    /* Safari 6.0 - 9.0 */
+    filter: none;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    border: 10px solid #212d74;
 }
 
 .promo-item h3 {
@@ -209,14 +214,19 @@ iframe {
 .item-1,
 .item-2,
 .item-3 {
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    -webkit-background-size: 100%;
-    background-size: 100%;
+    object-fit: cover;
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
     border: 0px solid rgba(255, 255, 255, 0.3);
     background-position: center;
-    -webkit-transition: 0.5s ease background-size, 0.5s ease border, 0.5s ease line-height;
-    transition: 0.5s ease background-size, 0.5s ease border, 0.5s ease line-height;
+    -webkit-transition: 0.3s ease background-size, 0.3s ease border, 0.3s ease line-height;
+    transition: 0.3s ease background-size, 0.3s ease border, 0.3s ease line-height;
 }
 
 .page-footer {
@@ -566,6 +576,18 @@ button {
     color: #ffffff;
     font-size: 15px;
     cursor: pointer;
+}
+
+.img-soon {
+    overflow: hidden;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 360px;
+    background-image: url("../images/bg.jpg");
 }
 
 .img {
