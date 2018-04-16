@@ -234,7 +234,7 @@ iframe {
 }
 
 .page-footer .contact {
-    padding: 100px 0;
+    padding: 30px 0;
     background-color: #7890cd;
     color: #ffffff;
     -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5), 0px 0px 16px rgba(0, 0, 0, 0.4);
@@ -417,12 +417,12 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: #7890cd;
+    border-color: #d23369;
     color: #ffffff;
-    background-color: #7890cd;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
+    background-color: #d23369;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
 }
 
 .btn-primary:hover,
@@ -431,9 +431,12 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open>.dropdown-toggle.btn-primary {
-    border-color: #d23369;
+    border-color: #f06292;
     color: #ffffff;
-    background-color: #d23369;
+    background-color: #f06292;
+    -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5), 0px 0px 16px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5), 0px 0px 16px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5), 0px 0px 16px rgba(0, 0, 0, 0.4);
 }
 
 .btn-primary:active,
