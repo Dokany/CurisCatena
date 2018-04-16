@@ -128,10 +128,9 @@ iframe {
     background-color: #7890cd;
     padding: 70px 0;
     text-align: center;
-    -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
-    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
-    ;
+    -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5), 0px 0px 16px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5), 0px 0px 16px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5), 0px 0px 16px rgba(0, 0, 0, 0.4);
 }
 
 .content {
@@ -180,10 +179,13 @@ iframe {
 }
 
 .promo-item:hover {
-    background-size: 110%;
-    border: 10px solid rgba(255, 255, 255, 0.3);
     line-height: 380px;
     background-repeat: no-repeat;
+    -moz-background-size: 110%;
+    -o-background-size: 110%;
+    -webkit-background-size: 110%;
+    background-size: 110%;
+    border: 10px solid rgba(255, 255, 255, 0.3);
 }
 
 .promo-item h3 {
@@ -193,25 +195,28 @@ iframe {
 }
 
 .item-1 {
-    background: url('../images/image004.jpg');
+    background: url('../images/image006.jpg');
 }
 
 .item-2 {
-    background: url('../images/image002.jpg');
+    background: url('../images/image005.jpg');
 }
 
 .item-3 {
-    background: url('../images/image003.jpg');
+    background: url('../images/image007.jpg');
 }
 
 .item-1,
 .item-2,
 .item-3 {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    background-position: 50% 50%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    border: 0px solid rgba(255, 255, 255, 0.3);
+    background-position: center;
+    -webkit-transition: 0.5s ease background-size, 0.5s ease border, 0.5s ease line-height;
+    transition: 0.5s ease background-size, 0.5s ease border, 0.5s ease line-height;
 }
 
 .page-footer {
@@ -222,10 +227,9 @@ iframe {
     padding: 100px 0;
     background-color: #7890cd;
     color: #ffffff;
-    -moz-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
-    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.5);
-    ;
+    -moz-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5), 0px 0px 16px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5), 0px 0px 16px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5), 0px 0px 16px rgba(0, 0, 0, 0.4);
 }
 
 .page-footer .contact p {
@@ -524,9 +528,9 @@ button {
 }
 
 .form {
-    position: relative;
-    width: 100%;
-    height: 100%;
+    position: absolute;
+    width: 85%;
+    height: 85%;
     transition: -webkit-transform 1.2s ease-in-out;
     transition: transform 1.2s ease-in-out;
     transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
@@ -535,7 +539,7 @@ button {
 
 .sub-cont {
     overflow: hidden;
-    position: absolute;
+    position: relative;
     left: 70%;
     top: 0;
     /*width: 900px;*/
